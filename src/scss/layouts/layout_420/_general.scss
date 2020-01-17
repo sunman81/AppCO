@@ -1,0 +1,57 @@
+.navbar {
+  background: $navcolor;
+}
+.mobile-menu-container {
+  display: none;
+  background-color: $navcolor;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+}
+
+.menu-mobile {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-mobile__link {
+  color: $white;
+  display: block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  text-align: left;
+}
+
+.menu-mobile__link:hover {
+  background-color: $navcolor;
+}
+.mobile-menu-container.active {
+  display: block;
+}
+.slider {
+  margin-bottom: 0;
+  margin-left: 7rem;
+  width: 50%;
+}
+.image-mate {
+  width: 50%;
+  margin-left: 7rem;
+}
+.price-center::after {
+  margin-left: 0;
+}
+.scrollup {
+  width: 40px;
+  height: 40px;
+  opacity: 0.3;
+  position: fixed;
+  bottom: 50px;
+  right: 1rem;
+  display: none;
+  text-indent: -9999px;
+  background: url("../i/icon_top.png") no-repeat;
+}
+.accordion {
+  font-size: 0.9rem;
+}

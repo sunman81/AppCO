@@ -1,0 +1,49 @@
+.mobile-menu-container {
+  display: none;
+}
+.menu-button {
+  display: none;
+}
+
+.menu {
+  display: block;
+}
+
+.menu-desktop {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-family: $fontFamily;
+}
+
+.menu-desktop__item {
+  position: relative;
+  display: inline-block;
+}
+
+.menu-desktop__link {
+  display: inline-block;
+  padding: 1rem 1.5rem;
+  font-weight: bold;
+  color: white;
+}
+.navbar {
+  background: transparent;
+}
+
+.scrollup {
+  width: 40px;
+  height: 40px;
+  opacity: 0.3;
+  position: fixed;
+  bottom: 50px;
+  right: 100px;
+  display: none;
+  text-indent: -9999px;
+  background: url("../i/icon_top.png") no-repeat;
+}
+.video:hover {
+  -webkit-transform: scale(0.7);
+  -ms-transform: scale(0.7);
+  transform: scale(0.7);
+}

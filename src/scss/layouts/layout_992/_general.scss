@@ -1,0 +1,147 @@
+.intro {
+  max-width: 960px;
+}
+.intro-container {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+.text-white {
+  font-size: 3rem;
+}
+.inc {
+  color: $ptext;
+}
+.about-us-container {
+  max-width: 960px;
+}
+.affo {
+  font-size: 2em;
+}
+.chose {
+  font-size: 2.1rem;
+}
+.package-card {
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%;
+}
+.package-card-1 {
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%;
+  margin: 7px;
+}
+.price-center::after {
+  content: "";
+  display: block;
+  width: 80%;
+  position: absolute;
+  bottom: 0;
+  margin-left: 0%;
+  height: 1px;
+  background: radial-gradient(
+    at center center,
+    #dee4ef 0px,
+    rgba(255, 255, 255, 0) 75%
+  );
+}
+.img-slider {
+  max-width: 50%;
+  height: auto;
+  padding-bottom: 3rem;
+  margin-left: 18rem;
+}
+.screen {
+  font-size: 2.4em;
+}
+.single-team-member {
+  display: flex;
+}
+.team-image {
+  flex: 0 0 25%;
+}
+.ourteam {
+  font-size: 2.4em;
+}
+.form-control-msg {
+  width: 213%;
+}
+.footer-container {
+  max-width: 960px;
+}
+.footer-logo {
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+.footer-other-links {
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+.footer-last-section {
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+.footer-lead {
+  line-height: 1.4;
+}
+.contact-container {
+  max-width: 960px;
+}
+.contact-head {
+  flex: 0 0 41.666667%;
+  max-width: 41.666667%;
+}
+.contact-form {
+  flex: 0 0 58.333333%;
+  max-width: 58.333333%;
+}
+.feature-container {
+  max-width: 960px;
+}
+.custom-dots {
+  left: 72%;
+}
+.slider {
+  width: 60%;
+  margin-left: 3rem;
+}
+
+.package-content-center {
+  margin-right: 0;
+}
+@media (min-width: 1300px) {
+  .slider {
+    width: 50%;
+    margin-left: 13rem;
+  }
+  .custom-dots {
+    left: 69%;
+  }
+}
+.card-btn:hover {
+  background: rgba(0, 0, 0, 0);
+  color: #3a7999;
+  box-shadow: inset 0 0 0 3px #3a7999;
+}
+.btn:hover {
+  background: rgba(0, 0, 0, 0);
+  color: #3a7999;
+  box-shadow: inset 0 0 0 3px #3a7999;
+}
+.btn {
+  cursor: pointer;
+}
+.btn-submit:hover {
+  background: rgba(0, 0, 0, 0);
+  color: #3a7999;
+  box-shadow: inset 0 0 0 3px #3a7999;
+}
+.btn-submit {
+  cursor: pointer;
+}
+.menu-desktop__link:hover {
+  color: cornflowerblue;
+}
+.single-promo:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}

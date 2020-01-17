@@ -1,0 +1,83 @@
+.intro {
+  max-width: 720px;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+}
+.intro-container {
+  flex: 0 0 58.333333%;
+  width: 100%;
+  position: relative;
+}
+.hero-animation-img {
+  position: relative;
+  flex: 0 0 41.666667%;
+  max-width: 41.666667%;
+}
+.box1 {
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%;
+}
+.inc {
+  font-size: 19px;
+}
+.small {
+  font-size: 2.44em;
+}
+.lead1 {
+  color: $ptext;
+}
+.about-us-container {
+  max-width: 720px;
+}
+.about-us-content {
+  flex: 0 0 58.333333%;
+  max-width: 58.333333%;
+}
+.android {
+  font-size: 2.4em;
+}
+.photo-before {
+  flex: 0 0 41.666667%;
+  max-width: 41.666667%;
+}
+.feature-container {
+  max-width: 720px;
+}
+.feature-items-photo {
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%;
+}
+.feature-text {
+  flex: 0 0 58.333333%;
+  max-width: 58.333333%;
+}
+.share {
+  font-size: 2.441em;
+}
+.package-boxes {
+  display: flex;
+}
+.package-card-1 {
+  margin: 20px;
+}
+.affo {
+  font-size: 2.4em;
+}
+.slider {
+  margin-left: 12rem;
+  width: 50%;
+}
+.form-control-msg {
+  width: 209%;
+}
+.mobile-menu-container {
+  z-index: 1;
+}

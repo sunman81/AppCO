@@ -51,6 +51,13 @@
   padding-right: 15px;
   padding-left: 15px;
 }
+input.error {
+  border: 1px solid #ff0000;
+ }
+ label.error {
+  color: #ff0000;
+  font-weight: normal;
+ }
 
 .single-promo {
   box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.12);

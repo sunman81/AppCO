@@ -88,3 +88,38 @@ document.getElementById("tel").addEventListener("input", e => {
     ? x[1]
     : "( " + x[1] + " ) " + x[2] + (!x[3] ? "" : " - " + x[3]);
 });
+
+$(function() {
+  $("#contactForm1").validate({
+    submitHandler:function(form){
+      alert(`Thank you ${form.name.value} for your message :)`);
+      
+    },
+    rules: {
+      name: {
+        required: true,
+        minlength: 2
+      },
+      companyName:{
+        required: true,
+      }, 
+      email:{
+        required: true,
+      }
+
+
+    },
+    messages: {
+      name: {
+        minlength: "Mininmum 2 symbols required"
+      },
+      email: {
+        email: "Email is not valid !"
+      },
+      companyName: {
+
+      }
+    }
+  });
+});
+
